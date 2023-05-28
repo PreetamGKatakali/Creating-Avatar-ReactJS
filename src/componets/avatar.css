@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(0,0,0,0.05);
+}
+.list-none{
+    list-style: none;   
+}
+.display{
+    color: black;
+    position:relative;
+    top: 10px;
+    width: 170px;
+    height:190px;
+    background-color:#f1f5f8;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-container{ 
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    gap: 5px;
+}
+.nav-container{
+    position: sticky;
+    top:50px;
+    background-color: #434753;
+}
+.container{
+    color: white;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 25% 75%;
+}
+.remove-button{
+    position: relative;
+    left: 67px;
+    bottom: 122px;
+}
+.photo-logo{
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows:70px 70px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    /* background-color: aqua; */
+}
+.img{
+    border-radius: 50%;
+}
+.img-select{
+    box-shadow: 0px 0px 10px 0px rgba(244, 240, 240, 0.809);
+}
+.age-field{
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.button-add{
+    position: relative;
+    top: 20px;
+}
+.p{
+    position: relative;
+    right: 20px;
+    top: 15px;
+}
+
+
+  
